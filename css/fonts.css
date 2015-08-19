@@ -1,0 +1,135 @@
+body {font:12pt/1.385em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif !important; }
+
+h1 {font:3.692em/1.125em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+h2 {font:2.307em/1.2em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+h3, #sidebar .widget h3.widgettitle {font:1.846em/1.5em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+h4 {font:1.384em/1em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+h5 {font:italic 1.384em/1em Georgia, Times, "Century Schoolbook L", serif;}
+
+h6 {font:italic 1.230em/1.125em Georgia, Times, "Century Schoolbook L", serif;}
+
+.logo_text {font:italic 1em/1.385em Georgia, Times, "Century Schoolbook L", serif;}
+
+blockquote {font:italic 1.384em/1.22em Georgia, Times, "Century Schoolbook L", serif;}
+
+code {font-family:Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+	
+#header .search_line input[type="text"] {font:italic 1em/1em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+ul.marker li, ul.list li, div.jp-type-playlist div.jp-playlist li a, div.jp-type-single div.jp-playlist li, div.jp-type-playlist div.jp-playlist li {font:italic 1.076em Georgia, Times, "Century Schoolbook L", serif;}
+
+ul.tour li a {font:italic 1em/3.07em Georgia, Times, "Century Schoolbook L", serif;}
+
+input[type="text"], textarea {font:1em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+.divider a {font:italic .84em/1.63em Georgia, Times, "Century Schoolbook L", serif;}
+
+.quotation, .post_category, figcaption, .pagehead em {font-family:Georgia, Times, "Century Schoolbook L", serif;}
+
+.person em {font:italic 1.23em/1.125em Georgia, Times, "Century Schoolbook L", serif;}
+
+small {font:.92em/1.5em Tahoma, Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+.color_1, 
+body, 
+small, 
+a:hover, 
+.search_line input[type="text"]:focus, 
+ul.marker li, 
+.comment, 
+input, 
+textarea, 
+.widget_nav_menu li a, 
+.quotation, 
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current, 
+div.jp-type-playlist div.jp-playlist a:hover {color:#000;}
+
+.button_colored:hover {
+	background-color:#606060 !important;
+	background:#606060 !important;
+}
+
+.color_3, 
+a, 
+.comment:hover, 
+.widget_nav_menu li a:hover, 
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover, 
+.format_text a, 
+#navigation li a:hover, 
+#navigation li.current_page_item a {color:#989e45;}
+
+.code_inner span, 
+.p_sort a:hover, 
+.post_like a:hover, 
+.quote_flag, 
+.link_flag, 
+.shortcode_slideshow ul.shortcode_slideshow_pager li.current a:hover, 
+.shortcode_slideshow ul.shortcode_slideshow_pager li.current a, 
+.shortcode_slideshow ul.shortcode_slideshow_pager li a:hover, 
+.but_more:hover, 
+.date small, 
+.p_sort a.current, 
+.p_sort a.current.reversed, 
+.link_box, .heart:hover, 
+.vert_line, 
+.horiz_line, 
+code:before, 
+span.dropcap2, 
+a.p_cat_filter:hover {background-color:#989e45;}
+
+.button.current, 
+.button:hover, 
+.button_medium:hover, 
+.button_big:hover {
+	background:#989e45;
+	border-color:#989e45;
+}
+
+.tag:hover, .tag span, 
+#navigation ul li.current_page_item li a:hover, 
+#navigation ul li.current_page_item li.current_page_item a, 
+#navigation ul li.current_page_item a, #navigation ul li a:hover, 
+div.jp-type-playlist div.jp-playlist li:hover span, 
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current span, 
+ul.tour li.current a span, 
+.tog.button_medium.current {background:#989e45;}
+
+#navigation ul li.current_page_item:first-child > a:before, 
+#navigation ul li:first-child > a:hover:before, 
+#navigation ul li.current_page_item:first-child a:after, 
+#navigation ul li:first-child a:hover:after {border-bottom-color:#989e45;}
+
+#navigation ul ul li:first-child a:hover:before, 
+#navigation ul ul li.current_page_item:first-child a:after, 
+#navigation ul ul li:first-child a:hover:after {border-right-color:#989e45;}
+
+.color_2, h1, h1 a, .cont_nav, span.dropcap, .person em, .format_text a:hover, ul.tour li.current a {color:#353535;}
+
+h2, h2 a {color:#353535;}
+
+h3, h3 a {color:#353535;}
+
+h4, h4 a {color:#353535;}
+
+h5, h5 a {color:#353535;}
+
+h6, h6 a {color:#353535;}
+
+#slider h1, #slider h2, #slider h3, #slider h4, #slider h5, #slider h6, .mask h3 a, .mask h4 a {color:#ffffff;}
+
+.quote_box {background:#353535;}
+
+#navigation li a, #navigation li.current_page_item li a, #navigation li.current_page_item li.current_page_item li a {color:#353535;}
+
+.social_block li a {color:#838383;}
+
+.logo_text {color:#3d3d3d;}

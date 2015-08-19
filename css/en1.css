@@ -1,0 +1,70 @@
+#menu2.en ul.menu li{
+	float: left !important;
+}
+
+#menu2.en ul.menu > li:first-child > a{
+	border-right: 0;
+	
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	
+/* 	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; */
+}
+#menu2.en ul.menu > li > a{
+/* 	border-right: 1px solid #26A8FF;
+	border-left: 1px solid #0082D9; */
+}
+
+#menu2.en ul.menu > li:last-child > a			{
+	border-left: 0;
+	
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	
+/* 	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px; */
+}
+#menu2.en ul.menu > li > a.haschild{
+	padding-right: 30px;
+	background: #e6e6e6 url("../images/down.png") no-repeat right center;
+}
+#menu2.en ul.menu > li:hover > a.haschild{
+	background: #f7f7f7 url("../images/down-hover.png") no-repeat right center;
+}
+#menu2.en ul.menu
+{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+#menu2.en ul.menu li ul.sub-menu {
+	right:auto;
+	left: 0;
+}
+#menu2.en ul.menu li ul.sub-menu li ul {
+	right:auto;
+	left: 180px;
+}
+#menu2.en ul.menu li:hover ul.sub-menu li:hover a.haschild {
+	border-left: none;
+	border-right: 1px solid #CECECE;
+}
+#menu2.en ul.menu li ul.sub-menu li a.haschild {
+	background: white url("../images/right.png") no-repeat right center;
+}
+#menu2.en ul.menu li:hover ul.sub-menu li:hover a.haschild {
+	background: #F7F7F7 url("../images/right-hover.png") no-repeat right center;
+}
+#menu2.en ul.menu li a {
+	text-align: left;
+}

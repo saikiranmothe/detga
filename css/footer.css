@@ -1,0 +1,73 @@
+/* Al Amthal */
+
+/*
+ |	All required styles for the effect
+ |	are labeled with this *required*
+*/
+
+#footer{
+clear : both;
+position : relative;
+z-index : 10;
+height : 100px;
+margin-top : 50px;
+/* margin-bottom : 20px; */
+	background: #333;
+	padding: 20px;
+	padding-top: 0;
+	padding-bottom: 30px;
+	border-top:10px solid #444;
+	font-size: 13px;
+	color: #e6e6e6;
+}
+#footer ul{
+	display:block;
+}
+
+#footer li{
+	font-size: 14px;
+	color: #e6e6e6;
+	float:left;
+	display:block;
+	width: 130px;
+	line-height:1.8;
+	border-bottom: 1px solid #666;
+	margin:3px;
+	clear:left;
+}
+
+#footer li:hover{
+	border-bottom:1px solid #999;
+}
+
+#footer .header{
+	font-weight: bold;
+}
+#footer a{
+	color: #e6e6e6;
+}
+
+#footer a:hover{
+	color: #999;
+}
+#footer img{
+	width:16px;
+	height:16px;
+	margin-right: 5px;
+}
+
+#footer .facebook, #footer .twitter, #footer .youtube, #footer .linkedin{
+	padding-left: 25px;
+}
+#footer .facebook{
+	background: url(../images/facebook.png) no-repeat 0 1px ;
+}
+#footer .twitter{
+	background: url(../images/twitter.png) no-repeat 0 2px;
+}
+#footer .youtube{
+	background: url(../images/youtube.png) no-repeat 0 1px;
+}
+#footer .linkedin{
+	background: url(../images/linkedin.png) no-repeat 2px 3px;
+}

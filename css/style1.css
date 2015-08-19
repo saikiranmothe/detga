@@ -1,0 +1,148 @@
+#menu2 *
+{
+	margin: 0;
+	padding: 0;
+}
+
+#menu2 ul.menu
+{
+	float: right;
+	font-family: "Francois One", sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+	#menu2 ul.menu li
+	{
+		position: relative;
+		float: left;
+		list-style-type: none;
+	}
+	
+		#menu2 ul.menu li a
+		{
+			position: relative;
+			display: block;
+			line-height: 12px;
+			padding: 12px 20px;
+			text-decoration: none;
+			z-index: 100;
+			text-align: right;
+			
+			-webkit-transition: all 0.1s linear;
+			-moz-transition: all 0.1s linear;
+			-o-transition: all 0.1s linear;
+			transition: all 0.1s linear;
+		}
+
+			#menu2 ul.menu > li:first-child > a
+			{
+				border-left: 0;
+				
+				-webkit-border-top-left-radius: 6px;
+				-webkit-border-bottom-left-radius: 6px;
+				-moz-border-radius-topleft: 6px;
+				-moz-border-radius-bottomleft: 6px;
+				border-top-left-radius: 6px;
+				border-bottom-left-radius: 6px;
+			}
+			
+			#menu2 ul.menu > li:last-child > a
+			{
+				border-right: 0;
+				
+				-webkit-border-top-right-radius: 6px;
+				-webkit-border-bottom-right-radius: 6px;
+				-moz-border-radius-topright: 6px;
+				-moz-border-radius-bottomright: 6px;
+				border-top-right-radius: 6px;
+				border-bottom-right-radius: 6px;
+			}
+
+/** Sub Menu - Tier 2 **/
+
+#menu2 ul.menu li ul.sub-menu
+{
+	position: relative;
+	display: none;
+	margin: 0;
+	padding: 0;
+	right: 0;
+}
+
+	#menu2 ul.menu li:hover ul.sub-menu
+	{
+		display: block;
+		float: left;
+		position: absolute;
+		z-index: 200;
+	}
+	
+		#menu2 ul.menu li ul.sub-menu > li:first-child
+		{
+			/* margin: 6px 0 0 0; */
+			margin: 0;
+		}
+		
+		#menu2 ul.menu li ul.sub-menu li a
+		{
+			width: 140px;
+			display: block;
+		}
+		
+			#menu2 ul.menu li ul.sub-menu li:first-child > a
+			{
+				border-top: 0;
+/* 				-webkit-border-top-left-radius: 6px;
+				-webkit-border-top-right-radius: 6px;
+				-moz-border-radius-topleft: 6px;
+				-moz-border-radius-topright: 6px;
+				border-top-left-radius: 6px;
+				border-top-right-radius: 6px; */
+			}
+			
+			#menu2 ul.menu li ul.sub-menu li:last-child > a
+			{
+				border-bottom: 0;
+/* 				-webkit-border-bottom-left-radius: 6px;
+				-webkit-border-bottom-right-radius: 6px;
+				-moz-border-radius-bottomleft: 6px;
+				-moz-border-radius-bottomright: 6px;
+				border-bottom-left-radius: 6px;
+				border-bottom-right-radius: 6px; */
+			}
+			
+		#menu2 ul.menu li ul.sub-menu li a:hover
+		{
+			width: 140px;
+			display: block;
+		}
+	
+/** Sub Menu - Tier 3 **/
+
+#menu2 ul.menu li ul.sub-menu li ul
+{
+	position: relative;
+	display: none;
+	right: 180px;
+}
+
+		#menu2 ul.menu li ul.sub-menu li ul li
+		{
+			/* margin: 0 6px 0 0; */
+			margin: 0;
+		}
+
+	#menu2 ul.menu li ul.sub-menu li:hover ul
+	{
+		display: block;
+		float: left;
+		position: absolute;
+		top: 0;
+	}
+
+		#menu2 ul.menu li ul.sub-menu li ul li a
+		{
+			width: 140px;
+			display: block;
+		}
