@@ -1,1 +1,1 @@
-# detga
+# detga info
