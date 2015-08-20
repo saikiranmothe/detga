@@ -1,0 +1,14 @@
+body{
+   height:100%;
+   width:100%; 
+   background-color:grey;	
+}
+#welcome-link{
+   color:white;   
+   padding:500px;
+}
+#welcome-img{
+  
+  padding:50px 170px;
+  width:1000px;
+}
